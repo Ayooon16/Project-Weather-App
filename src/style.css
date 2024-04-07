@@ -15,8 +15,8 @@ header {
 input[type="radio"] {
   appearance: none;
 }
-.active{
-    background-color: cyan;
+.active {
+  background-color: cyan;
 }
 body {
   display: flex;
