@@ -1,5 +1,4 @@
-import fetchData from "./modules/fetchData";
+import createCard from "./modules/createCard";
 import "./style.css";
 
-fetchData("katowice", false);
-
+createCard("phoenix", false);
