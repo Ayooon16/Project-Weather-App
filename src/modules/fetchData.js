@@ -21,7 +21,7 @@ export default function fetchData(city, american) {
         visibility: american ? weatherData.vis_miles : weatherData.vis_km,
         cloudiness: weatherData.cloud,
         uv: weatherData.uv,
-        details : weather.location
+        details: weather.location,
       };
       return wth;
     });

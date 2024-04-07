@@ -1,55 +1,73 @@
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Nunito', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
 }
-body{
-    display: flex;
-    justify-content: center;
-    background: rgb(46,140,142);
-    background: linear-gradient(180deg, rgba(46,140,142,1) 0%, rgba(38,107,129,1) 100%);
-height: 100vh;
+.radios {
+  display: flex;
 }
-.details > img{
-    width: 70px;
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
-#card{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+input[type="radio"] {
+  appearance: none;
 }
-.cardName{
-    font-size: 2.5em;
+.active{
+    background-color: cyan;
 }
-.cardDetails{
-    font-size: 2em;
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(46, 140, 142);
+  background: linear-gradient(
+    180deg,
+    rgba(46, 140, 142, 1) 0%,
+    rgba(38, 107, 129, 1) 100%
+  );
+  height: 100vh;
 }
-.cardHeader{
-    gap: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.details > img {
+  width: 70px;
 }
-.details{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    font-size: 1.5em;
-    padding: 20px;
+#card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.data{
-    display: grid;
-    grid-template: 1fr 1fr 1fr/1fr 1fr 1fr;
-    gap: 50px;
+.cardName {
+  font-size: 2.5em;
 }
-.position{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.cardDetails {
+  font-size: 2em;
 }
-.position > p{
-    padding: 6px;
+.cardHeader {
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.details {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1.5em;
+  padding: 20px;
+}
+.data {
+  display: grid;
+  grid-template: 1fr 1fr 1fr/1fr 1fr 1fr;
+  gap: 50px;
+}
+.position {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.position > p {
+  padding: 6px;
 }
